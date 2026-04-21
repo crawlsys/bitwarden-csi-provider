@@ -11,7 +11,7 @@ env:
 
 jobs:
   check:
-    runs-on: ubuntu-latest
+    runs-on: kvncrw-bitwarden-csi-provider
     steps:
       - uses: actions/checkout@v6
 
@@ -37,7 +37,7 @@ jobs:
         run: docker build --target builder .
 
   coverage:
-    runs-on: ubuntu-latest
+    runs-on: kvncrw-bitwarden-csi-provider
     steps:
       - uses: actions/checkout@v6
 
