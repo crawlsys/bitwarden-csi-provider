@@ -1,5 +1,5 @@
 image:
-  repository: ghcr.io/kvncrw/bitwarden-csi-provider
+  repository: ghcr.io/crawlsys/bitwarden-csi-provider
   tag: latest
   pullPolicy: IfNotPresent
 

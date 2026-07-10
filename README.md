@@ -73,7 +73,7 @@ containers:
 
 ```bash
 cargo build --release
-docker build -t ghcr.io/kvncrw/bitwarden-csi-provider:latest .
+docker build -t ghcr.io/crawlsys/bitwarden-csi-provider:latest .
 ```
 
 ## Testing

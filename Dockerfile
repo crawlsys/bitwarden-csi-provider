@@ -12,7 +12,7 @@ RUN cargo build --release --bin bitwarden-csi-provider
 
 FROM gcr.io/distroless/cc-debian12
 
-LABEL org.opencontainers.image.source="https://github.com/kvncrw/bitwarden-csi-provider"
+LABEL org.opencontainers.image.source="https://github.com/crawlsys/bitwarden-csi-provider"
 LABEL org.opencontainers.image.description="Bitwarden Secrets Manager provider for Kubernetes Secrets Store CSI Driver"
 LABEL org.opencontainers.image.licenses="GPL-3.0-only"
 

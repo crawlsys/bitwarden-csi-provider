@@ -10,7 +10,7 @@ resolver = "2"
 version = "0.1.1"
 edition = "2021"
 license = "GPL-3.0-only"
-repository = "https://github.com/kvncrw/bitwarden-csi-provider"
+repository = "https://github.com/crawlsys/bitwarden-csi-provider"
 
 [workspace.dependencies]
 tokio = { version = "1", features = ["full"] }
